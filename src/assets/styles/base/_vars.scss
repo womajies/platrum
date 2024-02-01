@@ -1,0 +1,71 @@
+// Colors
+$white-color: #ffffff;
+$black-color: #000000;
+$accent-color: #c1e7f6;
+$accent-color-two: #9beed2;
+$accent-color-three: #3d1d13;
+$accent-color-four: #4f2619;
+$btn-disabled-color: #444444;
+$btn-disabled-color-two: #222222;
+$btn-disabled-border-color: #888888;
+$btn-error-color: #c74a4a;
+$btn-focus-color: #f79696;
+
+// Font
+$default-font-size: 16px;
+
+// Transition
+$transition-duration: 0.3s;
+$transition-timing-function: ease;
+
+// Border
+$border-width: 1px;
+$border-width-2x: 2px;
+$border-radius: 4px;
+$border-radius-btn: 10px;
+$border-radius-modal: 20px;
+
+// Sizes
+$header-height: 100px;
+
+// Spaces
+$space-big: 120px;
+$space-small: 60px;
+
+// Breakpoints
+// min-width
+$desktopM: 2560px;
+$desktopS: 1920px;
+$desktop: 1680px;
+$laptopS: 1440px;
+$laptop: 1280px;
+$tabletS: 1024px;
+$tablet: 768px;
+$mobileS: 480px;
+$mobile: 375px;
+
+// max-width
+$desktopS__max: 2559px;
+$desktop__max: 1919px;
+$laptopS__max: 1679px;
+$laptop__max: 1439px;
+$tabletS__max: 1279px;
+$tablet__max: 1023px;
+$mobileS__max: 767px;
+$mobile__max: 479px;
+
+//Breakpoints + px
+$sm: 480;
+$md: 768;
+$lg: 1024;
+$xl: 1440;
+$xxl: 1680;
+
+//Standard breakpoints
+$breakpoints: (
+  'sm': 480px,
+  'md': 768px,
+  'lg': 1024px,
+  'xl': 1440px,
+  'xxl': 1680px,
+);
