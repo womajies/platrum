@@ -130,8 +130,8 @@ export default {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    width: rem(24);
-    height: rem(34);
+    width: rem(28);
+    height: rem(40);
     vertical-align: middle;
     cursor: pointer;
 
