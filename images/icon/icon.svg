@@ -1,0 +1,12 @@
+<svg width="0" height="0" class="hidden">
+  <defs>
+    <symbol id="close" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1L13 13" stroke="currentColor" stroke-width="2"/>
+      <path d="M13 1L1 13" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+    <symbol id="error" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="13" cy="13" r="13" fill="#C74A4A"/>
+      <path d="M11.5801 19V16.6797H13.7334V19H11.5801ZM11.5801 11.3887V6.00098H13.7334V11.3887L13.4258 15.6162H12.0107L11.5801 11.3887Z" fill="white"/>
+    </symbol>
+  </defs>
+</svg>
