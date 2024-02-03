@@ -1,13 +1,13 @@
 <template>
   <tr class="u-table-row">
     <td :class="{ 'boss': isBoss }" class="u-table-row__name" @click="toggle">
-      <span class="u-table-row__indent"></span>
+      <span v-if="indent" :style="{'padding-left': indent + 'px'}"></span>
       {{ item.name }}
       <span v-if="isBoss">[{{ isOpen ? '-' : '+' }}]</span>
     </td>
     <td>{{ item.phone }}</td>
     <div class="u-table-row__subrow" v-show="isOpen" v-if="isBoss">
-      <UTableRow v-for="subitem in item.children" :item="subitem" :key="subitem.id" />
+      <UTableRow v-for="subitem in item.children" :item="subitem" :key="subitem.id" :indent="indent + 16" />
     </div>
   </tr>
 </template>
@@ -16,7 +16,12 @@
 export default {
   name: 'UTableRow',
   props: {
-    item: Object
+    item: Object,
+    indent: {
+      type: Number,
+      default: 0,
+      required: false
+    }
   },
   data() {
     return {
@@ -50,15 +55,6 @@ export default {
 
   &__subrow {
     width: 100%;
-  }
-
-  &__indent {
-    display: none;
-    padding-left: rem(16);
-  }
-
-  .u-table-row__subrow .u-table-row__indent {
-    display: inline-block;
   }
 }
 
